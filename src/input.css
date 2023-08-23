@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.br-1.animatedX,  .br-4.animatedX {
+    opacity: 0;
+}
+
+.br-2.animatedX {
+    background-color: red;;
+    border: 3px solid red;
+    transform: rotate(45deg) translate(-0px, -6px);
+    transform-origin: 0% 100%;
+}
+.br-3.animatedX {
+    background-color: red;;
+    border: 3px solid red;
+    transform: rotate(-45deg) translate(0px, 12px);
+    transform-origin: 0% 100%;
+}
